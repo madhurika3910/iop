@@ -6,11 +6,11 @@ import './header.css';
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">India&apos;s Largest EV Charging Network</h1>
+      <p>Find electric vehicle charging station near you, book a slot, digitally pay for charging car.</p>
 
       <div className="gpt3__header-content__input">
-        <input type="email" placeholder="Your Email Address" />
+        <input type="location" placeholder="Enter Your Location" />
         <button type="button">Get Started</button>
       </div>
 

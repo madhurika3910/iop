@@ -4,20 +4,20 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'ELECTRIC VEHICLE SUPPLY EQUIPMENT (EVSE)',
+    text: 'It refers to the supply of electricity  to an electric vehicle (EV), commonly called “charging stations” or “charging docks”. In simple terms, an EVSE is a wall mounted box that supplies electric energy for the recharging of electric vehicle batteries.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'CHARGING PROTOCOLS',
+    text: 'The Electric Vehicle Charging Protocol allows the use of a single inductive charger by multiple EV Charging Protocols define the type of Connector that goes into vehicle inlet, max power and voltage for the connection, communication protocols, and type of the communication link.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'What is Ac Charging?',
+    text: 'AC(Alternating current) charging is the most common charging method for electric vehicles with a plug. When plugging an electric vehicle into a normal charge point, the power gets converted inside the vehicle, then moves into the car battery. Charging speeds depend on the output power of the chargepoint as well as the convertor’s capabilities to convert the power to DC.',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'What is Dc Charging?',
+    text: 'DC(Direct Current) charging can transform alternating current (AC) to direct current (DC) itself, then it bypasses the onboard charger of an electric car and sends this current directly to the battery.',
   },
 ];
 
@@ -25,7 +25,6 @@ const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
